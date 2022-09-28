@@ -1,0 +1,38 @@
+body {
+  margin: 20px;
+  background-color: #2d2d2d;
+}
+ .box{
+  background-color: #1e1e1e;
+  color: black;
+  height:200px;
+  width:200px;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  padding:200px;
+  margin-top:150px;
+  flex-direction:column;
+}
+ .links{
+	 margin:10px;
+	 color:white;
+	 padding-right:10px;
+	 margin-left:-160px;
+	 font-size:50px;
+ }
+ img{	
+	 width:900px;
+	 height:600px;
+	 display:block;
+	 margin-left:900px;
+	 margin-right:900px;
+	 margin-top: -606px;
+	 border:10px #1e1e1e solid;
+ }
+ .links:hover
+ {
+	 color:#2d2d2d;
+	 opacity:90%;
+	 transition: 0.2s;
+ }
